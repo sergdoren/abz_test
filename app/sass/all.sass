@@ -1,0 +1,32 @@
+@import 'mixin'
+@import "../font/ProximaNova.css"
+
+body
+  margin: 0
+  overflow-y: scroll
+  font-family: "Proxima Nova", sans-serif
+  *
+    box-sizing: border-box
+    font-family: "Proxima Nova", sans-serif
+input,button
+  border: none
+input
+  &::placeholder
+    color: $c_white
+
+.wrapper
+  +W-H-BC($w: 970px)
+  margin: 0 auto
+  padding: 0 15px
+
+.test
+  position: fixed
+  top: 0
+  +W-H-BC($w: 970px, $bc: red)
+  max-width: 100%
+  left: 0
+  right: 0
+  margin: 0 auto
+  padding: 0 15px
+  .container
+    +W-H-BC($bc: #b6ffee, $h: 1000px)

@@ -1,0 +1,38 @@
+$c_green: #87b448
+$c_green_darker: #73993d
+$c_grey: #e0e2e6
+$c_white: white
+
+
+=F($s: null, $c: null, $fw: null)
+  @if $s != null
+    font-size: $s
+  @if $fw != null
+    font-weight: $fw
+  @if $c != null
+    color: $c
+
+=W-H-BC($w:100%, $h: null, $bc: null)
+  width: $w
+  @if $h != null 
+    height: $h
+  @if $bc != null
+    background-color: $bc
+
+=BorBot($c: $c_grey, $h: 1px)
+  border-bottom: $h solid $c
+
+=BorR($r: 4px)
+  border-radius: 4px
+
+=I
+  display: inline-block
+
+=PosR($ov: null)
+  @if $ov != null
+    overflow: hidden
+  position: relative
+
+=PosA($t: 0, $l: 0)
+  position: absolute
+  @content

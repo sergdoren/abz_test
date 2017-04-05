@@ -1,0 +1,138 @@
+@import url(../font/ProximaNova.css);
+body {
+  margin: 0;
+  overflow-y: scroll;
+  font-family: "Proxima Nova", sans-serif; }
+
+body * {
+  box-sizing: border-box;
+  font-family: "Proxima Nova", sans-serif; }
+
+input, button {
+  border: none; }
+
+input::placeholder {
+  color: white; }
+
+.wrapper {
+  width: 970px;
+  margin: 0 auto;
+  padding: 0 15px; }
+
+.test {
+  position: fixed;
+  top: 0;
+  width: 970px;
+  background-color: red;
+  max-width: 100%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  padding: 0 15px; }
+
+.test .container {
+  width: 100%;
+  height: 1000px;
+  background-color: #b6ffee; }
+
+header {
+  width: 100%;
+  height: 68px;
+  background-color: #87b448;
+  border-bottom: 2px solid #73993d;
+  color: white;
+  padding-top: 11px; }
+
+header div {
+  display: inline-block; }
+
+.search-form {
+  width: 435px;
+  height: 34px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 4px;
+  max-width: 487px;
+  vertical-align: top;
+  margin: 6px 0 0 27px; }
+
+.search-field {
+  width: 100%;
+  height: 100%;
+  background-color: #73993d;
+  padding-left: 38px; }
+
+.search-sub {
+  position: absolute;
+  width: 20px;
+  height: 100%; }
+
+@import url(../font/ProximaNova.css);
+body {
+  margin: 0;
+  overflow-y: scroll;
+  font-family: "Proxima Nova", sans-serif; }
+
+body * {
+  box-sizing: border-box;
+  font-family: "Proxima Nova", sans-serif; }
+
+input, button {
+  border: none; }
+
+input::placeholder {
+  color: white; }
+
+.wrapper {
+  width: 970px;
+  margin: 0 auto;
+  padding: 0 15px; }
+
+.test {
+  position: fixed;
+  top: 0;
+  width: 970px;
+  background-color: red;
+  max-width: 100%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  padding: 0 15px; }
+
+.test .container {
+  width: 100%;
+  height: 1000px;
+  background-color: #b6ffee; }
+
+header {
+  width: 100%;
+  height: 68px;
+  background-color: #87b448;
+  border-bottom: 2px solid #73993d;
+  color: white;
+  padding-top: 11px; }
+
+header div {
+  display: inline-block; }
+
+.search-form {
+  width: 435px;
+  height: 34px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 4px;
+  max-width: 487px;
+  vertical-align: top;
+  margin: 6px 0 0 27px; }
+
+.search-field {
+  width: 100%;
+  height: 100%;
+  background-color: #73993d;
+  padding-left: 38px; }
+
+.search-sub {
+  position: absolute;
+  width: 20px;
+  height: 100%; }
+

@@ -1,0 +1,20 @@
+{
+  "name": "ab",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "sergdoren <sergdoren@mail.ru>"
+  ],
+  "license": "ISC",
+  "homepage": "./app",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.4"
+  }
+}
