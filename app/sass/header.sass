@@ -17,11 +17,27 @@ header
   margin: 6px 0 0 27px
 .search-field
   +W-H-BC($w: 100%,$h: 100%, $bc: $c_green_darker)
+  +F($s: 15px)
   padding-left: 38px
 .search-sub
   +PosA()
-  +W-H-BC($w:20px, $h: 100%)
+  +W-H-BC($w:36px, $h: 100%, $bc: transparent)
+  span
+    +F($s: 16px, $c: $c_green)
+
+.top-chat-button,.top-notify-button
+  +F($s: 23px)
+  vertical-align: top
+  padding-top: 12px
+
+.top-chat-button
+  margin-left: 26px
+
+.top-notify-button
+  margin-left: 15px
 
 
+.top-profile-link
+  +RightSide
 
 

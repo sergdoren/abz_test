@@ -60,12 +60,33 @@ header div {
   width: 100%;
   height: 100%;
   background-color: #73993d;
+  font-size: 15px;
   padding-left: 38px; }
 
 .search-sub {
   position: absolute;
-  width: 20px;
-  height: 100%; }
+  width: 36px;
+  height: 100%;
+  background-color: transparent; }
+
+.search-sub span {
+  font-size: 16px;
+  color: #87b448; }
+
+.top-chat-button, .top-notify-button {
+  font-size: 23px;
+  vertical-align: top;
+  padding-top: 12px; }
+
+.top-chat-button {
+  margin-left: 26px; }
+
+.top-notify-button {
+  margin-left: 15px; }
+
+.top-profile-link {
+  float: right;
+  width: 214px; }
 
 @import url(../font/ProximaNova.css);
 body {
@@ -129,10 +150,31 @@ header div {
   width: 100%;
   height: 100%;
   background-color: #73993d;
+  font-size: 15px;
   padding-left: 38px; }
 
 .search-sub {
   position: absolute;
-  width: 20px;
-  height: 100%; }
+  width: 36px;
+  height: 100%;
+  background-color: transparent; }
+
+.search-sub span {
+  font-size: 16px;
+  color: #87b448; }
+
+.top-chat-button, .top-notify-button {
+  font-size: 23px;
+  vertical-align: top;
+  padding-top: 12px; }
+
+.top-chat-button {
+  margin-left: 26px; }
+
+.top-notify-button {
+  margin-left: 15px; }
+
+.top-profile-link {
+  float: right;
+  width: 214px; }
 
