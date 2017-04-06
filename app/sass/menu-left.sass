@@ -1,5 +1,31 @@
 @import "mixin"
 
 aside.menu-left
-  +W-H-BC($w: 211px,$h:200px, $bc: red)
+  +W-H-BC($w: 211px)
   display: inline-block
+.menu-categories
+  .category
+    +W-H-BC($h: 51px)
+    +BorBot()
+    display: block
+    line-height: 49px
+  .name
+  [class^="icon-"]
+    +F($s: 24px, $c: $c_menu_items_icons)
+    transform: translate(0, 8px)
+    display: inline-block
+    width: 45px
+  .name
+    color: $c_menu_items
+  .icon-Companies
+    transform: translate(3px,8px)
+  .icon-Services
+    transform: translate(4px,8px)
+
+.copyright
+  +F($s: 12px, $c: $c_banner)
+  padding: 15px 0 0 0
+  .link
+    padding: 13px 0 0 0
+    a
+      margin-right: 17px

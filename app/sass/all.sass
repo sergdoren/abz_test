@@ -4,10 +4,9 @@
 body
   margin: 0
   overflow-y: scroll
-  font-family: "Proxima Nova", sans-serif
   *
     box-sizing: border-box
-    font-family: "Proxima Nova", sans-serif
+    font-family: "Proxima Nova Regular", sans-serif
 input,button
   border: none
 input
@@ -24,9 +23,9 @@ a
   padding: 0 15px
 
 .test
+  +W-H-BC($w: 970px, $bc: red)
   position: fixed
   top: 0
-  +W-H-BC($w: 970px, $bc: red)
   max-width: 100%
   left: 0
   right: 0
@@ -34,3 +33,52 @@ a
   padding: 0 15px
   .container
     +W-H-BC($bc: #b6ffee, $h: 1000px)
+
+.aside-banner
+  +W-H-BC()
+  +BorBot()
+  padding: 17px 0 15px 0
+  .header
+    +F($s: 14px, $c: $c_banner_darker)
+    padding-left: 1px
+  .img
+    +W-H-BC($h:300px)
+    +ImgCon
+    margin: 16px 0 1px 0
+  .bottom
+    +F($s: 11px, $c: $c_banner)
+
+.aside-list-items
+  +BorBot()
+  padding-bottom: 4px
+  .header
+    +F($s: 14px, $c: $c_banner_darker)
+    padding: 17px 0 12px
+    span
+      +W-H-BC($w: calc(100% - 50px))
+    .more
+      +W-H-BC($w: 50px)
+      float: right
+      text-align: right
+  .item
+    +W-H-BC()
+    +ClFix
+    padding-bottom: 16px
+    .img
+      +W-H-BC($w:80px,$h: 80px)
+      +I($vag: top)
+      +ImgCon
+      margin-top: 4px
+    .info
+      +W-H-BC($w: calc(100% - 90px))
+      +I
+      float: right
+      .company-name
+        +F($s:16px,$fw: 900)
+        +TextEl
+      .company-type,.company-town
+        +F($s: 14px, $c: $c_banner_darker)
+      .follow
+        +F($s: 12px, $c: black)
+        display: block
+        padding-top: 2px

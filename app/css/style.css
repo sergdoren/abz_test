@@ -1,12 +1,11 @@
 @import url(../font/ProximaNova.css);
 body {
   margin: 0;
-  overflow-y: scroll;
-  font-family: "Proxima Nova", sans-serif; }
+  overflow-y: scroll; }
 
 body * {
   box-sizing: border-box;
-  font-family: "Proxima Nova", sans-serif; }
+  font-family: "Proxima Nova Regular", sans-serif; }
 
 input, button {
   border: none; }
@@ -24,10 +23,10 @@ a {
   padding: 0 15px; }
 
 .test {
-  position: fixed;
-  top: 0;
   width: 970px;
   background-color: red;
+  position: fixed;
+  top: 0;
   max-width: 100%;
   left: 0;
   right: 0;
@@ -38,6 +37,85 @@ a {
   width: 100%;
   height: 1000px;
   background-color: #b6ffee; }
+
+.aside-banner {
+  width: 100%;
+  border-bottom: 1px solid #e0e2e6;
+  padding: 17px 0 15px 0; }
+
+.aside-banner .header {
+  font-size: 14px;
+  color: #7c8695;
+  padding-left: 1px; }
+
+.aside-banner .img {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  margin: 16px 0 1px 0; }
+
+.aside-banner .img img {
+  height: 100%; }
+
+.aside-banner .bottom {
+  font-size: 11px;
+  color: #d3d3d3; }
+
+.aside-list-items {
+  border-bottom: 1px solid #e0e2e6;
+  padding-bottom: 4px; }
+
+.aside-list-items .header {
+  font-size: 14px;
+  color: #7c8695;
+  padding: 17px 0 12px; }
+
+.aside-list-items .header span {
+  width: calc(100% - 50px); }
+
+.aside-list-items .header .more {
+  width: 50px;
+  float: right;
+  text-align: right; }
+
+.aside-list-items .item {
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 16px; }
+
+.aside-list-items .item .img {
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+  margin-top: 4px; }
+
+.aside-list-items .item .img img {
+  height: 100%; }
+
+.aside-list-items .item .info {
+  width: calc(100% - 90px);
+  display: inline-block;
+  float: right; }
+
+.aside-list-items .item .info .company-name {
+  font-size: 16px;
+  font-weight: 900;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block; }
+
+.aside-list-items .item .info .company-type, .aside-list-items .item .info .company-town {
+  font-size: 14px;
+  color: #7c8695; }
+
+.aside-list-items .item .info .follow {
+  font-size: 12px;
+  color: black;
+  display: block;
+  padding-top: 2px; }
 
 aside.menu-right {
   width: 250px;
@@ -112,8 +190,7 @@ header div {
   font-weight: 300;
   width: calc(100% - 43px);
   vertical-align: top;
-  padding-top: 13px;
-  letter-spacing: .15px; }
+  padding-top: 13px; }
 
 .profile-link .name span {
   white-space: nowrap;
@@ -124,12 +201,11 @@ header div {
 @import url(../font/ProximaNova.css);
 body {
   margin: 0;
-  overflow-y: scroll;
-  font-family: "Proxima Nova", sans-serif; }
+  overflow-y: scroll; }
 
 body * {
   box-sizing: border-box;
-  font-family: "Proxima Nova", sans-serif; }
+  font-family: "Proxima Nova Regular", sans-serif; }
 
 input, button {
   border: none; }
@@ -147,10 +223,10 @@ a {
   padding: 0 15px; }
 
 .test {
-  position: fixed;
-  top: 0;
   width: 970px;
   background-color: red;
+  position: fixed;
+  top: 0;
   max-width: 100%;
   left: 0;
   right: 0;
@@ -161,6 +237,85 @@ a {
   width: 100%;
   height: 1000px;
   background-color: #b6ffee; }
+
+.aside-banner {
+  width: 100%;
+  border-bottom: 1px solid #e0e2e6;
+  padding: 17px 0 15px 0; }
+
+.aside-banner .header {
+  font-size: 14px;
+  color: #7c8695;
+  padding-left: 1px; }
+
+.aside-banner .img {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  margin: 16px 0 1px 0; }
+
+.aside-banner .img img {
+  height: 100%; }
+
+.aside-banner .bottom {
+  font-size: 11px;
+  color: #d3d3d3; }
+
+.aside-list-items {
+  border-bottom: 1px solid #e0e2e6;
+  padding-bottom: 4px; }
+
+.aside-list-items .header {
+  font-size: 14px;
+  color: #7c8695;
+  padding: 17px 0 12px; }
+
+.aside-list-items .header span {
+  width: calc(100% - 50px); }
+
+.aside-list-items .header .more {
+  width: 50px;
+  float: right;
+  text-align: right; }
+
+.aside-list-items .item {
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 16px; }
+
+.aside-list-items .item .img {
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+  margin-top: 4px; }
+
+.aside-list-items .item .img img {
+  height: 100%; }
+
+.aside-list-items .item .info {
+  width: calc(100% - 90px);
+  display: inline-block;
+  float: right; }
+
+.aside-list-items .item .info .company-name {
+  font-size: 16px;
+  font-weight: 900;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block; }
+
+.aside-list-items .item .info .company-type, .aside-list-items .item .info .company-town {
+  font-size: 14px;
+  color: #7c8695; }
+
+.aside-list-items .item .info .follow {
+  font-size: 12px;
+  color: black;
+  display: block;
+  padding-top: 2px; }
 
 header {
   width: 100%;
@@ -231,8 +386,7 @@ header div {
   font-weight: 300;
   width: calc(100% - 43px);
   vertical-align: top;
-  padding-top: 13px;
-  letter-spacing: .15px; }
+  padding-top: 13px; }
 
 .profile-link .name span {
   white-space: nowrap;
@@ -242,13 +396,77 @@ header div {
 
 aside.menu-left {
   width: 211px;
-  height: 200px;
-  background-color: red;
   display: inline-block; }
+
+.menu-categories .category {
+  width: 100%;
+  height: 51px;
+  border-bottom: 1px solid #e0e2e6;
+  display: block;
+  line-height: 49px; }
+
+.menu-categories [class^="icon-"] {
+  font-size: 24px;
+  color: #c7cdd9;
+  transform: translate(0, 8px);
+  display: inline-block;
+  width: 45px; }
+
+.menu-categories .name {
+  color: #59606b; }
+
+.menu-categories .icon-Companies {
+  transform: translate(3px, 8px); }
+
+.menu-categories .icon-Services {
+  transform: translate(4px, 8px); }
+
+.copyright {
+  font-size: 12px;
+  color: #d3d3d3;
+  padding: 15px 0 0 0; }
+
+.copyright .link {
+  padding: 13px 0 0 0; }
+
+.copyright .link a {
+  margin-right: 17px; }
 
 aside.menu-left {
   width: 211px;
-  height: 200px;
-  background-color: red;
   display: inline-block; }
+
+.menu-categories .category {
+  width: 100%;
+  height: 51px;
+  border-bottom: 1px solid #e0e2e6;
+  display: block;
+  line-height: 49px; }
+
+.menu-categories [class^="icon-"] {
+  font-size: 24px;
+  color: #c7cdd9;
+  transform: translate(0, 8px);
+  display: inline-block;
+  width: 45px; }
+
+.menu-categories .name {
+  color: #59606b; }
+
+.menu-categories .icon-Companies {
+  transform: translate(3px, 8px); }
+
+.menu-categories .icon-Services {
+  transform: translate(4px, 8px); }
+
+.copyright {
+  font-size: 12px;
+  color: #d3d3d3;
+  padding: 15px 0 0 0; }
+
+.copyright .link {
+  padding: 13px 0 0 0; }
+
+.copyright .link a {
+  margin-right: 17px; }
 

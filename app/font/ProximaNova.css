@@ -96,3 +96,13 @@
   font-weight: 600;
 }
 
+@font-face {
+  font-family: 'Proxima Nova Regular';
+  src: url('ProximaNovaRegular/ProximaNova-Regular.eot'); /* IE9 Compat Modes */
+  src: url('ProximaNovaRegular/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('ProximaNovaRegular/ProximaNova-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+  url('ProximaNovaRegular/ProximaNova-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+  url('ProximaNovaRegular/ProximaNova-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-style: normal;
+  font-weight: 300;
+}

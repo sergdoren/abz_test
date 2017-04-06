@@ -1,1 +1,4 @@
-angular.module('testApp', []);
+angular.module('testApp', [
+    'testApp.ListItems'
+]);
+

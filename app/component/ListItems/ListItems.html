@@ -1,0 +1,15 @@
+<div class="header">
+    <span>{{header}}</span>
+    <a href="#" class="more">See All</a>
+</div>
+<div class="item" ng-repeat="item in items | limitTo: lim">
+    <a href="" class="img">
+        <img src="img/compani1.png" alt="">
+    </a>
+    <div class="info">
+        <a href="#" class="company-name">{{item.company_name}}</a>
+        <span class="company-type">{{item.type}}</span>
+        <span class="company-town">Belgrade, Serbia</span>
+        <a href="#" class="follow">Follow Now</a>
+    </div>
+</div>

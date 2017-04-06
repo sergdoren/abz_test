@@ -1,7 +1,12 @@
 $c_green: #87b448
 $c_green_darker: #73993d
 $c_grey: #e0e2e6
+$c_menu_items: #59606b
+$c_menu_items_icons:  #c7cdd9
 $c_white: white
+
+$c_banner: #d3d3d3
+$c_banner_darker: #7c8695
 
 
 =F($s: null, $c: null, $fw: null)
@@ -25,8 +30,10 @@ $c_white: white
 =BorR($r: 4px)
   border-radius: 4px
 
-=I
+=I($vag: null)
   display: inline-block
+  @if $vag != null
+    vertical-align: $vag
 
 =PosR($ov: null)
   @if $ov != null
@@ -36,6 +43,9 @@ $c_white: white
 =PosA($t: 0, $l: 0)
   position: absolute
   @content
+
+=ClFix
+  overflow: hidden
 
 =ImgCon
   overflow: hidden
