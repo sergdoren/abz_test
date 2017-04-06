@@ -14,6 +14,10 @@ input, button {
 input::placeholder {
   color: white; }
 
+a {
+  text-decoration: none;
+  color: inherit; }
+
 .wrapper {
   width: 970px;
   margin: 0 auto;
@@ -34,6 +38,10 @@ input::placeholder {
   width: 100%;
   height: 1000px;
   background-color: #b6ffee; }
+
+aside.menu-right {
+  width: 250px;
+  display: inline-block; }
 
 header {
   width: 100%;
@@ -76,17 +84,42 @@ header div {
 .top-chat-button, .top-notify-button {
   font-size: 23px;
   vertical-align: top;
-  padding-top: 12px; }
+  padding-top: 11px; }
 
 .top-chat-button {
-  margin-left: 26px; }
+  margin: 1px 0 0 26px; }
 
 .top-notify-button {
   margin-left: 15px; }
 
 .top-profile-link {
   float: right;
-  width: 214px; }
+  width: 213px; }
+
+.profile-link .img {
+  width: 33px;
+  height: 33px;
+  background-color: red;
+  overflow: hidden;
+  border-radius: 4px;
+  margin: 7px 5px 0 0; }
+
+.profile-link .img img {
+  height: 100%; }
+
+.profile-link .name {
+  font-size: 16px;
+  font-weight: 300;
+  width: calc(100% - 43px);
+  vertical-align: top;
+  padding-top: 13px;
+  letter-spacing: .15px; }
+
+.profile-link .name span {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block; }
 
 @import url(../font/ProximaNova.css);
 body {
@@ -104,6 +137,10 @@ input, button {
 input::placeholder {
   color: white; }
 
+a {
+  text-decoration: none;
+  color: inherit; }
+
 .wrapper {
   width: 970px;
   margin: 0 auto;
@@ -166,15 +203,52 @@ header div {
 .top-chat-button, .top-notify-button {
   font-size: 23px;
   vertical-align: top;
-  padding-top: 12px; }
+  padding-top: 11px; }
 
 .top-chat-button {
-  margin-left: 26px; }
+  margin: 1px 0 0 26px; }
 
 .top-notify-button {
   margin-left: 15px; }
 
 .top-profile-link {
   float: right;
-  width: 214px; }
+  width: 213px; }
+
+.profile-link .img {
+  width: 33px;
+  height: 33px;
+  background-color: red;
+  overflow: hidden;
+  border-radius: 4px;
+  margin: 7px 5px 0 0; }
+
+.profile-link .img img {
+  height: 100%; }
+
+.profile-link .name {
+  font-size: 16px;
+  font-weight: 300;
+  width: calc(100% - 43px);
+  vertical-align: top;
+  padding-top: 13px;
+  letter-spacing: .15px; }
+
+.profile-link .name span {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block; }
+
+aside.menu-left {
+  width: 211px;
+  height: 200px;
+  background-color: red;
+  display: inline-block; }
+
+aside.menu-left {
+  width: 211px;
+  height: 200px;
+  background-color: red;
+  display: inline-block; }
 
