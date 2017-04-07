@@ -1,5 +1,15 @@
 @import "mixin"
 
 aside.menu-right
-  +W-H-BC($w: 250px)
+  +W-H-BC($w: 213px)
   display: inline-block
+  vertical-align: top
+  [data-listpeople]
+    padding: 0 0 6px 1px
+  [data-listproduct]
+    padding-bottom: 3px
+  [data-listproduct],[data-listpeople]
+    .items
+      padding-bottom: 3px
+    .item
+      padding-bottom: 17px

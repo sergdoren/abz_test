@@ -1,0 +1,46 @@
+@import "mixin.sass"
+
+.service
+  +W-H-BC()
+  padding: 0 11px
+  .header
+    padding: 12px 0 17px 0
+    h1
+      +F($s: 29px, $c: $c_black, $ls: .3px)
+      display: inline-block
+    .addService
+      +W-H-BC($w: 145px, $h: 30px, $bc: $c_green)
+      +BorR($r: 5px)
+      +F($c: $c_white)
+      float: right
+  .list
+    +W-H-BC()
+    +BorR()
+    +Bor
+    text-align: center
+    padding: 15px 4px
+  .service-item
+    +W-H-BC($w: 140px)
+    vertical-align: top
+    margin: 0 9px
+    display: inline-block
+    .img
+      +W-H-BC($h: 140px)
+      +Bor
+      transition: .3s
+    .name
+      +W-H-BC($h: 45px)
+      +F($c: $c_white,$s: 13px, $fw: 600)
+      min-height: 45px
+      overflow: hidden
+      text-align: center
+      padding-top: 15px
+      margin-bottom: 15px
+      transition: .3s
+    a
+      display: block
+      +Hover()
+        .img
+          background-color: #f4f7fb
+        .name
+          color: $c_green

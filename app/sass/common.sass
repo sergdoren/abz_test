@@ -9,6 +9,10 @@ body
     font-family: "Proxima Nova Regular", sans-serif
 input,button
   border: none
+  outline: none
+button
+  cursor: pointer
+
 input
   &::placeholder
     color: $c_white
@@ -16,9 +20,19 @@ input
 a
   text-decoration: none
   color: inherit
+  +Hover
+    color: $c_green
+
+h1,h2,h3
+  margin: 0
+  padding: 0
+  font-weight: 300
 
 .wrapper
-  +W-H-BC($w: 970px)
+  +W-H-BC()
+  //min-width: 970px
+  //max-width: 1440px
+  max-width: 970px
   margin: 0 auto
   padding: 0 15px
 
@@ -37,7 +51,7 @@ a
 .aside-banner
   +W-H-BC()
   +BorBot()
-  padding: 17px 0 15px 0
+  padding: 17px 0 18px 0
   .header
     +F($s: 14px, $c: $c_banner_darker)
     padding-left: 1px
@@ -53,32 +67,49 @@ a
   padding-bottom: 4px
   .header
     +F($s: 14px, $c: $c_banner_darker)
-    padding: 17px 0 12px
+    padding: 17px 0 14px
     span
       +W-H-BC($w: calc(100% - 50px))
     .more
       +W-H-BC($w: 50px)
+      color: $c_black
       float: right
       text-align: right
+      +Hover()
+        color: $c_green
   .item
     +W-H-BC()
     +ClFix
     padding-bottom: 16px
+    .name
+      +F($s: 16px)
+      padding-bottom: 1px
     .img
       +W-H-BC($w:80px,$h: 80px)
       +I($vag: top)
       +ImgCon
       margin-top: 4px
+      +Hover()
+        border-radius: 50%
     .info
       +W-H-BC($w: calc(100% - 90px))
       +I
       float: right
       .company-name
-        +F($s:16px,$fw: 900)
+        +F($s:16px,$fw: 700)
         +TextEl
-      .company-type,.company-town
+        padding-bottom: 3px
+      .company-type,.company-town,.people-type,.people-town
         +F($s: 14px, $c: $c_banner_darker)
+      .people-type
+        padding: 3px 0 3px 0
+      .people-type,.people-town
+        display: inline-block
       .follow
-        +F($s: 12px, $c: black)
+        +F($s: 12px, $c: $c_black)
         display: block
-        padding-top: 2px
+        padding-top: 4px
+      .desc
+        +F($s: 14px, $c: $c_banner_darker)
+        display: inline-block
+        line-height: 17px

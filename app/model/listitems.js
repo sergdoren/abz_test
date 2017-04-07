@@ -15,7 +15,7 @@ angular.module('testApp.ListItems')
             return $http({
                 metod: "GET",
                 headers: {
-                    'Authorization': 'c8ae05d40e1c50a9393223dc4546a306cd1aca27'
+                    'Authorization': '3a1c6ca2ccf125725396ce71cce28c37cc158bc8'
                 },
                 data: {
                   'page': 1
@@ -44,4 +44,5 @@ angular.module('testApp.ListItems')
             this.alias               = 'cid'+company.id      || '#';
         }
         return Company;
-    }]);
+    }])
+
